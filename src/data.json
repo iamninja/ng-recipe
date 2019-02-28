@@ -1,0 +1,82 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Best Beff",
+      "description": "It is Beef. Delicious beff.",
+      "serves": "2 people",
+      "imageUrl": "assets/beef.jpg",
+      "ingredients": [
+        {
+          "amount": "1 head",
+          "name": "BEFF"
+        },
+        {
+          "amount": "12",
+          "name": "sauce"
+        },
+        {
+          "amount": "2 tps",
+          "name": "onions"
+        }
+      ],
+      "instructions": [
+        "cook beff",
+        "add onions",
+        "profit"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Best Taaco",
+      "description": "It is Taco. Delicious beff.",
+      "serves": "2 people",
+      "imageUrl": "assets/burrito.jpg",
+      "ingredients": [
+        {
+          "amount": "1 head",
+          "name": "BEFF"
+        },
+        {
+          "amount": "12",
+          "name": "sauce"
+        },
+        {
+          "amount": "2 tps",
+          "name": "onions"
+        }
+      ],
+      "instructions": [
+        "cook beff",
+        "add onions",
+        "profit"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Bread Beff",
+      "description": "It is bread. Delicious bread.",
+      "serves": "2 people",
+      "imageUrl": "assets/brad.jpg",
+      "ingredients": [
+        {
+          "amount": "1 head",
+          "name": "BEFF"
+        },
+        {
+          "amount": "12",
+          "name": "sauce"
+        },
+        {
+          "amount": "2 tps",
+          "name": "onions"
+        }
+      ],
+      "instructions": [
+        "cook beff",
+        "add onions",
+        "profit"
+      ]
+    }
+  ]
+}
