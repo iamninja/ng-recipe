@@ -57,7 +57,7 @@
       "title": "Bread Beff",
       "description": "It is bread. Delicious bread.",
       "serves": "2 people",
-      "imageUrl": "assets/brad.jpg",
+      "imageUrl": "assets/bread.jpg",
       "ingredients": [
         {
           "amount": "1 head",
