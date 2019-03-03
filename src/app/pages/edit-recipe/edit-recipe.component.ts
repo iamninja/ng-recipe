@@ -32,7 +32,7 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
     this.subscriptions.push(
       this.route.paramMap.subscribe(params => {
         const recipeId = params.get('id');
-        this.recipe = this.recipeService.getRecipeById(parseInt('id'));
+        this.recipe = this.recipeService.getRecipeById(parseInt(recipeId));
         this.createForm();
       })
     )
@@ -113,7 +113,7 @@ export class EditRecipeComponent implements OnInit, OnDestroy {
         )
       );
 
-      this.router.navigate(['/recipes/${this.recipe.id}']);
+      this.router.navigate([`/recipes/${this.recipe.id}`]);
     } else {
       // show alert
       console.log("Form error");
