@@ -60,7 +60,7 @@ export class RecipeService {
   }
 
   private getNextId(): number {
-    const max = _.maxBy(this.recipes, (recipe) => recipe.id)
+    const max = _.maxBy(this.recipes, (recipe) => recipe.id).id;
     return max + 1;
   }
 }
